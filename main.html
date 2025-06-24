@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="body">
+        <center>
+            <div id="heading">MineSweeper</div><br><br>
+
+            <div id="customBoard">
+                <label>Generate your CUSTOM BOARD</label><br><div style="font-size: 13px;"><br></div>
+                <input type="number" id="rows" value="10"> &#10006; <input type="number" id="cols" value="10">&nbsp;&nbsp;
+                <label>Mines</label>
+                <input type="number" id="mines" value="10"><br><div style="font-size: 8px;"><br></div>
+                <input type="submit" id="start" value="Start!" onclick="setValue()">
+            </div><br>
+
+            <div>
+                <span id="timer">00:00</span>&nbsp;&nbsp;
+                <span id="flags">
+                    &#128681
+                    <span id="numFlags">10</span>
+                </span>
+            </div>
+            <div style="font-size: 10px;"><br></div>
+
+            <table id="table">
+
+            </table>
+        </center>
+
+    <script src="script.js"></script>
+    </body>
+</html>
